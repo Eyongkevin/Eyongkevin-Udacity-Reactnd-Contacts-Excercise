@@ -6,7 +6,6 @@ commands:
     steps:
       - node/install:
           install-yarn: true
-          node-version: latest
       - node/install-packages:
           pkg-manager: yarn
 jobs:
